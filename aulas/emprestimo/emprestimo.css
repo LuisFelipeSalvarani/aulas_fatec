@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(136, 138, 139);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0.8em;
+    border-radius: 10px;
+}
+
+h1, h3{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    color: rgb(221, 8, 8);
+}
+
+h3{
+    padding-bottom: 1em;
+    color: rgb(136, 138, 139);
+    font-size: 1.5em;
+    text-shadow: 1px 1px 2px;
+}
+
+input{
+    border: 1px solid;
+    border-radius: 30px;
+    padding: 0.4em;
+}
+
+input[type = number]{
+    width: 6em;
+}
+.box{
+    width: 30rem;
+    height: 25rem;
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.bnt{
+    width: 12em;
+    height: 2em;
+    background-color: rgb(233, 109, 7);
+    border-color: rgb(179, 87, 13);
+    border-radius: 30px;
+}
+
+.bnt:hover{
+    background-color: rgb(91, 99, 90);
+    border-color: rgb(64, 68, 63);
+    cursor: pointer;
+}
+
+/* resultado */
+
+.box_volta{
+    width: 30rem;
+    height: 25rem;
+    background-color: rgb(255, 255, 255);
+    padding: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.resultado p{
+    padding-top: 2rem;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.juros{
+    font-style: italic;
+}
+
